@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Commissioner';
+  src:
+    url('~/assets/fonts/Commissioner-Regular.woff'),
+    url('~/assets/fonts/Commissioner-Regular.woff2');
+}
+
+html {
+  font-family: 'Commissioner', sans-serif;
+  & * {
+    font-family: 'Commissioner', sans-serif;
+  }
+}
